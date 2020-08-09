@@ -1,8 +1,11 @@
 ##### Easy-and-Fun-Games
 
+
 ###### Rock, Paper,Scissors Game:
 
-* ![](images/rock_scissors_paper_Image.png)
+
+![](images/rock_scissors_paper_Image.png)
+
 
 * In this game, I make a one-player Rock, Paper, and Scissors Game that requires the player input 
     (rock,paper, scissors) and a automated player (computer randomly automate generated input (rock,paper, scissors).
@@ -21,7 +24,7 @@
     8. Create conditions based on the game rules (in order to win/lose the game)
     9. Prompt the player re-enter the input if necessary (misspell,...)
 
-* Below are the outcome -front end of the game
+* Below are the outcomes of the game:
     1.Welcome player! Let's play the Rock-Paper-Scissors game!
     2.The rules are: 
         rock beats scissors,
