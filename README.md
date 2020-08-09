@@ -1,7 +1,7 @@
 ##### Easy-and-Fun-Games
 
 
-###### Rock, Paper,Scissors Game:
+##### Rock, Paper,Scissors Game:
 
 
 ![](images/rock_scissors_paper_Image.png)
@@ -58,7 +58,7 @@
         Player_Input: q
         
         
-###### CowBull Game
+##### CowBull Game
 
 
 ![](images/cowsbullsGame.png)
@@ -67,5 +67,37 @@
     * In this game, I create a program that plays the “cows and bulls” game with the user. The game works like this:
     * Randomly generate a 4-digit number. Ask the user to guess a 4-digit number. For every digit that the user guessed correctly in the correct place, they have a “cow”. For every digit the user guessed correctly in the wrong place is a “bull.” Every time the user makes a guess, tell them how many “cows” and “bulls” they have. Once the user guesses the correct number, the game is over.
     * Keep track of the number of guesses the user makes throughout the game and tell the user at the end.
-    
-    
+    * Procedure:
+        1. Create a function named cows_bulls that takes two arguments: an automate generated number and the player's number
+        2. Import 'random' library
+        3. Print out the welcome introduction, the rules'game, and the condition to exit the game if desired
+        4. Create a while loop that iterates through the automate generated number and compare them with the player's input number prompt the winner or loser based on if elif conditions
+        5. Prompt the player to re-enter his/her input if the player input isn't an integer number.
+        
+    * Here is the outcome after running the codes:
+        
+        * 1. Welcome! Let's play the cowsbulls game!
+        * 2. The machine'll generate a 4 digits number, and your job is to guess that number.
+        * 3. For every right digit you guess in the right place, you have a cow. 
+               If a right digit at a wrong place, you have a bull.
+               If you have 4 cows, you win!
+        * Type 'q' to exit.
+
+            Enter your number: 1000
+            You have 2 cows, and 2 bulls.
+            Your guess isn't right, please try again.
+            Enter your number: 1023
+            You have 3 cows, and 0 bulls.
+            Your guess isn't right, please try again.
+            Enter your number: 1024
+            You have 2 cows, and 0 bulls.
+            Your guess isn't right, please try again.
+            Enter your number: 1053
+            You have 3 cows, and 0 bulls.
+            Your guess isn't right, please try again.
+            Enter your number: 1063
+            You have 3 cows, and 0 bulls.
+            Your guess isn't right, please try again.
+            Enter your number: 1073
+            You have 4 cows, and 0 bulls.
+            You won the game after 6 gueses! The number was 1073.
