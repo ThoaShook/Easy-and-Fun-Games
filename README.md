@@ -23,16 +23,16 @@
         9. Prompt the player re-enter the input if necessary (misspell,...)
 
     * Below are the outcomes of the game:
-        * 1.Welcome player! Let's play the Rock-Paper-Scissors game!
-        * 2.The rules are: 
+         1. Welcome player! Let's play the Rock-Paper-Scissors game!
+         2. The rules are: 
             * rock beats scissors,
             * scissors beats paper,
             * paper beats rock.
-    * 3.Steps: 
+        3. Steps: 
             * The computer randomly generates rock, paper, or scissors.
             * You enter your choice.
             * You win or lose based on the game rules.
-    * 4. Please type 'q' to exit.
+        4. Please type 'q' to exit.
 
         Player_Input: rock
         Computer: ['scissors']
@@ -76,12 +76,12 @@
         
     * Here is the outcome after running the codes:
         
-        * 1. Welcome! Let's play the cowsbulls game!
-        * 2. The machine'll generate a 4 digits number, and your job is to guess that number.
-        * 3. For every right digit you guess in the right place, you have a cow. 
+        1. Welcome! Let's play the cowsbulls game!
+        2. The machine'll generate a 4 digits number, and your job is to guess that number.
+        3. For every right digit you guess in the right place, you have a cow. 
                If a right digit at a wrong place, you have a bull.
                If you have 4 cows, you win!
-        * Type 'q' to exit.
+        4. Type 'q' to exit.
 
             Enter your number: 1000
             You have 2 cows, and 2 bulls.
